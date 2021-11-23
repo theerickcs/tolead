@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+        <!--<META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">-->
+        <title>JBS - Workshop</title>
+    </head>
+    <body>
+
+        <!--  NOTE: Please add the following <FORM> element to your page.             -->
+        
+        <form action="https://test.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+        
+        <input type=hidden name="oid" value="00D3I0000008lAU">
+        <input type=hidden name="retURL" value="http://">
+        
+        <!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
+        <!--  these lines if you wish to test in debug mode.                          -->
+        <input type="hidden" name="debug" value=1>
+        <input type="hidden" name="debugEmail" value="erick.soares@everymind.com.br">       
+               
+    
+        <label for="first_name">First Name: </label><input  id="first_name" maxlength="40" name="first_name" size="20" type="text" required/><br><br>
+        
+        <label for="last_name">Last Name: </label><input  id="last_name" maxlength="80" name="last_name" size="20" type="text" required/><br><br>
+        
+        <label for="company">Company: </label><input  id="company" maxlength="40" name="company" size="20" type="text" required/><br><br>
+        
+        <label for="email">Email: </label><input  id="email" maxlength="80" name="email" size="20" type="text" /><br><br>
+        
+        <label for="phone">Phone: </label><input  id="phone" maxlength="40" name="phone" size="20" type="text" /><br><br>
+        
+        Sector:<select  id="00N3I000000r980" name="00N3I000000r980" title="Sector"><option value="">--None--</option><option value="Gelatin">Gelatin</option>
+        <option value="Collagen Peptides">Collagen Peptides</option>
+        <option value="Gelatin and Collagen Peptides">Gelatin and Collagen Peptides</option>
+        </select><br><br>
+        
+        <label for="description">Description: </label><textarea name="description"></textarea><br><br>
+        
+        Region:<select  id="00N3I000000r97z" name="00N3I000000r97z" title="Region">
+            <option value="">--None--</option>
+            <option value="African">African</option>
+            <option value="Asia-Pacific">Asia-Pacific</option>
+            <option value="Europe">Europe</option>
+            <option value="Latin American">Latin American</option>
+            <option value="Middle East">Middle East</option>
+            <option value="North American">North American</option>
+        </select><br><br>
+        
+        <label for="lead_source" hidden>Lead Source: </label><select  id="lead_source" name="lead_source" hidden>
+            <option value="Web To lead (Workshop)">Web To lead (Workshop)</option>
+            <!--<option value="Web To lead (Web)">Web To lead (Web)</option>-->
+        </select><br><br>
+        
+        <input type="submit" name="submit">
+        
+        </form>
+    </body>
+</html>
+
